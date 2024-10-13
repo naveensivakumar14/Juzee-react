@@ -15,9 +15,12 @@ function About() {
   }
 
   return (
-    <div className="flex flex-wrap md:justify-around md:items-center gap-6 bg-[#FFDFD6] px-10 py-20">
+    <div className="bg-[#FFDFD6] py-10">
+    <h1 className="text-2xl text-center font-bold">Why Juzee</h1>
+  
+    <div className="flex flex-wrap md:justify-around md:items-center gap-6 p-10">
       <div className="w-full md:w-1/2">
-        <h1 className="text-3xl font-bold">Discover the Essence of Nature !</h1>
+        <h1 className="text-xl md:text-3xl font-bold">Discover the Essence of Nature !</h1>
         <p className="md:w-3/4 mt-6 md:text-lg font-semibold md:font-normal">
           At Juzee, we’re passionate about bringing the finest, freshest fruit
           juices straight from the orchard to your glass. Each sip contains
@@ -37,6 +40,7 @@ function About() {
           Click me
         </button>
       </div>
+    </div>
     </div>
   );
 }

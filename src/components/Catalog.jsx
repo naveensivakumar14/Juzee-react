@@ -59,7 +59,7 @@ const filteredProducts = getFilteredProducts(selectedCategory);
   };
 
   return (
-    <div className="bg-slate-200 py-10">
+    <div className="py-10">
       <h1 className="text-3xl font-bold text-center">Catalog</h1>
       {/* Category Filter */}
       <div className="flex justify-center py-10">
