@@ -62,7 +62,7 @@ function Hero() {
     <div className="relative ">
     
       {/*Props--- Pass the current background color to the Navbar  */}
-      <Navbar bgColor={slides[currentSlide].bgColor} />
+      {/* <Navbar bgColor={slides[currentSlide].bgColor} /> */}
 
 
 

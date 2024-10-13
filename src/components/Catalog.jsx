@@ -109,8 +109,8 @@ const filteredProducts = getFilteredProducts(selectedCategory);
       {/* Products Display */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 px-4 md:px-[10%] my-5">
         {filteredProducts.map((item) => (
-          <div key={item.id} className="py-4 hover:shadow-2xl border-none hover:rounded-md transform hover:translate-y-2">
-            <img className="" src={item.img} alt={item.title} />
+          <div key={item.id} className="md:py-4 hover:shadow-2xl border-none hover:rounded-md transform hover:translate-y-2">
+            <img className="w-full" src={item.img} alt={item.title} />
             <h1 className="text-center font-semibold">{item.title}</h1>
             <p className="text-center">&#x20B9;{item.price}</p>
           </div>
