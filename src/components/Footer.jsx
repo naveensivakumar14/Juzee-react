@@ -1,7 +1,7 @@
 // Footer Component
 function Footer() {
     return (
-      <div className="bg-[#251B37] text-white py-16 md:py-20 px-[10%] flex flex-col md:flex-row justify-between items-center">
+      <div className="bg-black text-white py-16 md:py-20 px-[10%] flex flex-col md:flex-row justify-between items-center">
         <div className="text-lg text-center md:text-left font-semibold leading-relaxed mb-6 md:mb-0">
             <h1 className="text-4xl font-extrabold text-yellow-200 mb-6 md:mb-0">Juzee</h1>
             <ul >
