@@ -1,7 +1,7 @@
 🍊 Juzee - Fresh Juice Website
 
 
-![Juzee]"./public/juzee-thumnail.pg
+![Juzee]"public/Juzee-thumnail.jpg"
 
 
 
