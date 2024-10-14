@@ -3,12 +3,6 @@
 
 ![Juzee](public/Juzee-thumnail.jpg)
 
-
-
-
-
-
-
 Juzee is a modern, responsive juice product website built with React.js.
 The goal of the project is to create a clean, engaging user interface for browsing and selecting from a variety of juice products, 
 with seamless navigation and a dynamic product catalogue.
