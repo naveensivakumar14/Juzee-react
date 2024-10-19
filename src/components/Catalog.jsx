@@ -107,7 +107,7 @@ const filteredProducts = getFilteredProducts(selectedCategory);
       </div>
 
       {/* Products Display */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 px-4 md:px-[10%] my-5">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 px-4 md:px-[10%] my-5">
         {filteredProducts.map((item) => (
           <div key={item.id} className="md:py-4 hover:shadow-2xl border-none hover:rounded-md transform hover:translate-y-2">
             <img className="w-full" src={item.img} alt={item.title} />
